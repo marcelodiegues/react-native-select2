@@ -6,10 +6,7 @@
 
 ## Add it to your project
   - Using NPM
-    `npm install https://github.com/marcelodiegues/react-native-select2.git`
-  - or:
-  - Using Yarn
-    `yarn add https://github.com/marcelodiegues/react-native-select2.git`
+    `npm i @marcelodiegues/react-native-select2`
 
 
 ## Install dependencies
