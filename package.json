@@ -1,5 +1,5 @@
 {
-  "name": "react-native-select2",
+  "name": "@marcelodiegues/react-native-select2",
   "version": "1.0.0",
   "description": "Component like Select2 on web for React Native",
   "main": "index.js",
