@@ -20,7 +20,8 @@ class Select2 extends Component {
         colorTheme: '#16a45f',
         buttonTextStyle: {},
         buttonStyle: {},
-        showSearchBox: true
+        showSearchBox: true,
+        disabledSelect: false
     }
     state = {
         show: false,
@@ -129,14 +130,15 @@ class Select2 extends Component {
         let {
             style, modalStyle, title, onSelect, onRemoveItem, popupTitle, colorTheme,
             isSelectSingle, cancelButtonText, selectButtonText, searchPlaceHolderText,
-            selectedTitleStyle, buttonTextStyle, buttonStyle, showSearchBox
+            selectedTitleStyle, buttonTextStyle, buttonStyle, showSearchBox, disabledSelect
         } = this.props;
         let { show, selectedItem, preSelectedItem } = this.state;
         return (
             <TouchableOpacity
                 onPress={this.showModal}
                 activeOpacity={0.7}
-                style={[styles.container, style]}>
+                style={[styles.container, style]}
+                disabled={disabledSelect}>
                 <Modal
                     onBackdropPress={this.closeModal}
                     style={{
@@ -323,7 +325,8 @@ Select2.propTypes = {
     isSelectSingle: PropTypes.bool,
     showSearchBox: PropTypes.bool,
     cancelButtonText: PropTypes.string,
-    selectButtonText: PropTypes.string
+    selectButtonText: PropTypes.string,
+    disabledSelect: PropTypes.bool
 }
 
 //make this component available to the app

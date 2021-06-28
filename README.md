@@ -1,4 +1,4 @@
-# react-native-select-two
+# react-native-select2
 
 ## Component like [Select2](https://select2.org/) on web for React Native
 
@@ -6,10 +6,10 @@
 
 ## Add it to your project
   - Using NPM
-    `npm install react-native-select-two`
+    `npm install react-native-select2`
   - or:
   - Using Yarn
-    `yarn add react-native-select-two`
+    `yarn add react-native-select2`
 
 
 ## Install dependencies
@@ -23,7 +23,7 @@
 ```javascript
 import React, { Component } from "react"
 import { View, Text, StyleSheet } from "react-native"
-import Select2 from "react-native-select-two"
+import Select2 from "react-native-select2"
 
 const mockData = [
   { id: 1, name: "React Native Developer", checked: true }, // set default checked for render option item
@@ -82,5 +82,6 @@ class CreateNewAppointment extends Component {
 | **selectedTitleStyle**    | _Object_       | none                            | Set custom style for display selected title text                                            |
 | **buttonTextStyle**       | _Object_       | none                            | Set custom button text style                                                                |
 | **buttonStyle**           | _Object_       | none                            | Set custom button style                                                                     |
+| **disabledSelect**       | _Bool_       | none                            | Disable Select
 
 **MIT Licensed**
