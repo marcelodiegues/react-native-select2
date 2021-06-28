@@ -1,6 +1,6 @@
 {
   "name": "react-native-select2",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Component like Select2 on web for React Native",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "select2",
     "component"
   ],
-  "author": "xuho",
+  "author": "marcelodiegues",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marcelodiegues/react-native-select2/issues"
