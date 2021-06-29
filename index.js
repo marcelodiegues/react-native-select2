@@ -16,7 +16,7 @@ class Select2 extends Component {
         cancelButtonText: 'Cancel',
         selectButtonText: 'Select',
         searchPlaceHolderText: "Search...",
-        listEmptyTitle: 'No matcher found',
+        listEmptyTitle: 'No matches found',
         colorTheme: '#16a45f',
         buttonTextStyle: {},
         buttonStyle: {},

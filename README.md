@@ -74,7 +74,7 @@ class CreateNewAppointment extends Component {
 | **cancelButtonText**      | _string_       | Cancel                             | Cancel button text title                                                                    |
 | **selectButtonText**      | _String_       | Select                            | Select button text title                                                                    |
 | **searchPlaceHolderText** | _String_       | Search...                | Placeholder text for search field                                                           |
-| **listEmptyTitle**        | _String_       | No matcher found | Title to show when there's no item to be render                                             |
+| **listEmptyTitle**        | _String_       | No matches found | Title to show when there's no item to be render                                             |
 | **defaultFontName**       | _String_       | none                            | Set custom font for all component                                                           |
 | **selectedTitleStyle**    | _Object_       | none                            | Set custom style for display selected title text                                            |
 | **buttonTextStyle**       | _Object_       | none                            | Set custom button text style                                                                |
